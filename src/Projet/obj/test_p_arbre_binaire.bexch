@@ -1,0 +1,20 @@
+[GENERATED OBJECT FILE]
+b__test_p_arbre_binaire.o
+[PROJECT FILES]
+C:\Users\Diego\Desktop\N7\S5\Methodo\GnatWork\Projet\arbre_genealog_diego_rodriguez.gpr
+20210129171210 90dccf00edf6c2c33f0b98d7b23a0b17
+[BOUND OBJECT FILES]
+C:\Users\Diego\Desktop\N7\S5\Methodo\GnatWork\Projet\obj\p_arbre_bin.o
+C:\Users\Diego\Desktop\N7\S5\Methodo\GnatWork\Projet\obj\test_p_arbre_binaire.o
+[GENERATED SOURCE FILES]
+b__test_p_arbre_binaire.ads
+b__test_p_arbre_binaire.adb
+b__test_p_arbre_binaire.ali
+[RESULTING OPTIONS]
+-LC:\Users\Diego\Desktop\N7\S5\Methodo\GnatWork\Projet\obj\
+-LC:\Users\Diego\Desktop\N7\S5\Methodo\GnatWork\Projet\obj\
+-LC:/gnat/2020/lib/gcc/x86_64-pc-mingw32/9.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2020/lib/gcc/x86_64-pc-mingw32/9.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

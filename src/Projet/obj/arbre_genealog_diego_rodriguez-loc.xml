@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project >
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Diego\Desktop\methodologie-main\src\list_tree_gen.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 19" line=" 219" >
+      <vfs_project />
+      <vfs_file>C:\Users\Diego\Desktop\methodologie-main\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Diego\Desktop\methodologie-main\src\main.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Diego\Desktop\methodologie-main\src\p_list_gen.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Diego\Desktop\methodologie-main\src\p_list_gen.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Diego\Desktop\methodologie-main\src\person.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Diego\Desktop\methodologie-main\src\person.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Diego\Desktop\methodologie-main\src\start</vfs_file>
+    </file_marker>
+    <file_marker column=" 5" line=" 8" >
+      <vfs_project />
+      <vfs_file>C:\Users\Diego\Desktop\methodologie-main\src\start.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Diego\Desktop\methodologie-main\src\tree_bin.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 15" line=" 13" >
+      <vfs_project />
+      <vfs_file>C:\Users\Diego\Desktop\methodologie-main\src\tree_bin.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Diego\Desktop\methodologie-main\src\tree_gen.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 16" >
+      <vfs_project />
+      <vfs_file>C:\Users\Diego\Desktop\methodologie-main\src\utils.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Diego\Desktop\methodologie-main\src\utils.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Diego\Desktop\methodologie-main\src\utils_gen.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Diego\Desktop\methodologie-main\src\utils_gen.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Diego\Desktop\methodologie-main\src\alea.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Diego\Desktop\methodologie-main\src\alea.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Diego\Desktop\methodologie-main\src\console.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Diego\Desktop\N7\S5\Methodo\GnatWork\Projet\arbre_genealog_diego_rodriguez.gpr</vfs_project>
+      <vfs_file>C:\Users\Diego\Desktop\N7\S5\Methodo\GnatWork\Projet\src\test_p_arbre_genealog.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

@@ -1,0 +1,131 @@
+V "GNAT Lib v2020"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_LOCAL_ALLOCATORS
+RV NO_RECURSION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U p_arbre_bin%b		p_arbre_bin.adb		60c5948d NE OO PK GE
+
+U p_arbre_bin%s		p_arbre_bin.ads		45690812 BN EE NE OO PK GE IL
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20200228061810 76789da1 ada%s
+D a-except.ads		20200228061810 a7106115 ada.exceptions%s
+D a-ioexce.ads		20200228061810 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20200228061810 119b8fb3 ada.streams%s
+D a-tags.ads		20200228061810 edddc8f0 ada.tags%s
+D a-textio.ads		20200228061810 aef4d56d ada.text_io%s
+D a-unccon.ads		20200228061810 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20200228061810 5ab55268 interfaces%s
+D i-cstrea.ads		20200228061810 e53d8b8e interfaces.c_streams%s
+D p_arbre_bin.ads	20210129141224 eb9ddd7f p_arbre_bin%s
+D p_arbre_bin.adb	20210129164812 8b5849f2 p_arbre_bin%b
+D system.ads		20200228061810 32a08138 system%s
+D s-crtl.ads		20200228061810 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200228061810 54135002 system.exception_table%s
+D s-ficobl.ads		20200228061810 078245e4 system.file_control_block%s
+D s-parame.ads		20200228061810 4752c4cb system.parameters%s
+D s-secsta.ads		20200327060540 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20200228061810 a7318a92 system.soft_links%s
+D s-stache.ads		20200228061810 a37c21ec system.stack_checking%s
+D s-stalib.ads		20200228061810 6b7a13f2 system.standard_library%s
+D s-stoele.ads		20200228061810 2dc34a04 system.storage_elements%s
+D s-traent.ads		20200228061810 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200319060540 5ecf7212 system.unsigned_types%s
+D s-wchcon.ads		20200228061810 1b7d22d2 system.wch_con%s
+G a e
+G c Z s b [p_arbre_bin standard 8 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 10|1r6 1r23
+X 6 a-textio.ads
+57K13*Text_IO 727e16 10|1w10 1r27
+X 10 p_arbre_bin.ads
+5+9 T_Element 7r38 7r63 41r72 80r75 93r89 106r90 119r54 132r71 147r61 160r58
+. 175r73 175r103 189r69 270r17 11|10r72 38r75 69r89 76r90 83r57 96r71 110r61
+. 165r58 184r73 184r103 206r70
+7V18 egaux{boolean} 7>24 7>49 11|116s38 130s48 134s61 138s63 221s16 228s61
+7*24 element1{5+9}
+7*49 element2{5+9}
+8k9*P_Arbre_Bin 5z9 7z18 264E9 275l5 275e16 11|1b14 307l5 307t16
+10P9*T_Arbre_Bin 29r40 41r43 53r34 65r33 80r39 93r53 106r54 119r34 132r42
+. 147r33 147r115 160r30 175r40 189r41 219r45 219r65 232r50 232r87 245r44
+. 245r64 258r49 258r85 266c9 271r27 272r26 11|4r40 10r43 17r34 24r33 38r39
+. 69r53 76r54 83r37 96r42 110r33 110r115 111r15 165r30 184r40 185r15 206r41
+. 207r15 256r45 256r65 269r50 269r87 282r44 282r64 295r49 295r85
+13X4*arbre_null 11|88r16 101r16 190r16 212r16 261r16 274r16 287r16 300r16
+15X4*element_absent 11|120r19 197r19 219r19
+17X4*emplacement_invalide 11|50r22 59r22
+29U14*initialiser 29<26 11|4b14 8l8 8t19
+29p26 F_Arbre{10P9} 11|4b26 7m7
+41U14*creerArbre 41=25 41>57 11|10b14 14l8 14t18
+41p25 F_arbre{10P9} 11|10b25 13m7
+41*57 F_Element{5+9} 11|10b57 13r32
+53V13*estVide{boolean} 53>21 11|17b13 21l8 21t15 27s14 41s10 48s20 57s20
+. 116s14 130s18 168s10 188s10 195s13 210s10
+53p21 F_Arbre{10P9} 11|17b21 20r14
+65V13*taille{integer} 65>20 11|24b13 29s17 29s57 34l8 34t14
+65p20 F_Arbre{10P9} 11|24b20 27r22 29r24 29r64
+80U14*inserer 80=22 80>53 80>86 11|38b14 66l8 66t15 72s7 79s7
+80p22 F_Arbre{10P9} 11|38b22 41r18 43m10 48r28 53r16 57r28 62r16
+80*53 F_Nouvel_Element{5+9} 11|38b53 43r34 53r61 62r62
+80b86 F_Inserer_A_Droite{boolean} 11|38b87 46r13
+93U14*insererSousArbreDroit 93=36 93>67 11|69b14 73l8 73t29
+93p36 F_Arbre{10P9} 11|69b36 72m15
+93*67 F_Nouvel_Element{5+9} 11|69b67 72r24
+106U14*insererSousArbreGauche 106=37 106>68 11|76b14 80l8 80t30
+106p37 F_Arbre{10P9} 11|76b37 79m15
+106*68 F_Nouvel_Element{5+9} 11|76b68 79r24
+119V13*getElement{5+9} 119>24 11|83b13 93l8 93t18
+119p24 F_Arbre{10P9} 11|83b24 86r10 91r17
+132U14*setElement 132=25 132>56 11|96b14 106l8 106t18
+132p25 F_Arbre{10P9} 11|96b25 99r10 104r10
+132*56 F_Element{5+9} 11|96b56 104r33
+147V13*recherche{10P9} 147>23 147>46 147>72 11|110b13 150s19 154s22 162l8
+. 162t17 173s13 193s19 215s19 226s22
+147p23 F_Arbre{10P9} 11|110b23 114r16 150r29 154r32
+147*46 F_Element{5+9} 11|110b46 116r63 130r73 134r108 138r109 150r60 154r62
+147b72 F_Retourner_Precedent{boolean} 11|110b72 118r13 132r13 150r71 154r73
+160V13*existe{boolean} 160>20 160>43 11|165b13 181l8 181t14
+160p20 F_Arbre{10P9} 11|165b20 168r18 173r23
+160*43 F_Element{5+9} 11|165b43 173r32
+175U14*modifier 175=23 175>54 175>84 11|184b14 203l8 203t16
+175p23 F_Arbre{10P9} 11|184b23 188r18 193r29
+175*54 F_Src_Element{5+9} 11|184b54 193r38
+175*84 F_Tar_Element{5+9} 11|184b84 200r34
+189U14*supprimer 189=24 189>54 11|206b14 237l8 237t17
+189p24 F_Arbre{10P9} 11|206b24 210r18 215r29 221r22 223m13 226r32
+189*54 F_Element{5+9} 11|206b55 215r38 221r43 226r41 228r108
+219V13*getSousArbreGauche{10P9} 219>32 11|256b13 266l8 266t26
+219p32 F_Arbre{10P9} 11|256b32 259r10 264r17
+232U14*setSousArbreGauche 232=33 232>64 11|269b14 279l8 279t26
+232p33 F_Arbre{10P9} 11|269b33 272r10 277r10
+232p64 F_SousArbreGauche{10P9} 11|269b64 277r43
+245V13*getSousArbreDroit{10P9} 245>31 11|282b13 292l8 292t25
+245p31 F_Arbre{10P9} 11|282b31 285r10 290r17
+258U14*setSousArbreDroit 258=32 258>63 11|295b14 305l8 305t25
+258p32 F_Arbre{10P9} 11|295b32 298r10 303r10
+258p63 F_SousArbreDroit{10P9} 11|295b63 303r42
+264R9 T_Noeud 266r31 269c9 273e14 11|13r23 43r25 53r52 62r53
+270*7 Element{5+9} 11|91r29 104m22 116r54 130r64 134r99 138r100 200m23 221r34
+. 228r99
+271p7 Sous_Arbre_Gauche{10P9} 11|29r36 57r40 62m28 134r26 134r77 150r41 228r26
+. 228r77 230m26 264r29 277m22
+272p7 Sous_Arbre_Droit{10P9} 11|29r76 48r40 53m28 138r29 138r79 154r44 233m26
+. 290r29 303m22
+X 11 p_arbre_bin.adb
+111p7 noeud{10|10P9} 114m7 116r22 116r44 123r20 130r26 130r54 134r16 134r67
+. 136r23 138r19 138r69 140r23 150m10 152r13 154m13 161r14
+185p7 noeud{10|10P9} 193m10 195r21 200r13
+207p7 noeud{10|10P9} 215m10 217r13 226m13 228r16 228r67 230r16 233r16
+

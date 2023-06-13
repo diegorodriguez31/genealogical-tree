@@ -1,0 +1,84 @@
+V "GNAT Lib v2020"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_IO
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U main%b		main.adb		2c03df7a NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W p_arbre_genealog%s	p_arbre_genealog.adb	p_arbre_genealog.ali
+W p_menu%s		p_menu.adb		p_menu.ali
+
+D ada.ads		20200228061810 76789da1 ada%s
+D a-charac.ads		20200228061810 2d3ec45b ada.characters%s
+D a-chlat1.ads		20200228061810 66457d31 ada.characters.latin_1%s
+D a-except.ads		20200228061810 a7106115 ada.exceptions%s
+D a-finali.ads		20200228061810 bf4f806b ada.finalization%s
+D a-inteio.ads		20200228061810 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20200228061810 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20200228061810 119b8fb3 ada.streams%s
+D a-string.ads		20200228061810 90ac6797 ada.strings%s
+D a-strmap.ads		20200228061810 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20200304060544 1656705b ada.strings.unbounded%s
+D a-suteio.ads		20200228061810 26d8e9aa ada.strings.unbounded.text_io%s
+D a-tags.ads		20200228061810 edddc8f0 ada.tags%s
+D a-textio.ads		20200228061810 aef4d56d ada.text_io%s
+D a-tiinio.ads		20200228061810 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20200228061810 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20200228061810 5ab55268 interfaces%s
+D i-cstrea.ads		20200228061810 e53d8b8e interfaces.c_streams%s
+D main.adb		20210130184948 2c7fbc6e main%b
+D p_arbre_bin.ads	20210129141224 eb9ddd7f p_arbre_bin%s
+D p_arbre_genealog.ads	20210129142746 def0b08d p_arbre_genealog%s
+D p_individu.ads	20210130091828 05118f83 p_individu%s
+D p_menu.ads		20210131142650 86338f50 p_menu%s
+D system.ads		20200228061810 32a08138 system%s
+D s-atocou.ads		20200228061810 b45c2d8d system.atomic_counters%s
+D s-crtl.ads		20200228061810 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200228061810 54135002 system.exception_table%s
+D s-ficobl.ads		20200228061810 078245e4 system.file_control_block%s
+D s-finmas.ads		20200228061810 7811a767 system.finalization_masters%s
+D s-finroo.ads		20200228061810 4ff27390 system.finalization_root%s
+D s-parame.ads		20200228061810 4752c4cb system.parameters%s
+D s-pooglo.ads		20200228061810 ede33ef8 system.pool_global%s
+D s-secsta.ads		20200327060540 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20200228061810 a7318a92 system.soft_links%s
+D s-stache.ads		20200228061810 a37c21ec system.stack_checking%s
+D s-stalib.ads		20200228061810 6b7a13f2 system.standard_library%s
+D s-stoele.ads		20200228061810 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20200313060448 e9fa2dd8 system.storage_pools%s
+D s-stposu.ads		20200317060516 e251976f system.storage_pools.subpools%s
+D s-stratt.ads		20200424050626 9a2744e9 system.stream_attributes%s
+D s-traent.ads		20200228061810 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200319060540 5ecf7212 system.unsigned_types%s
+D s-wchcon.ads		20200228061810 1b7d22d2 system.wch_con%s
+G a e
+G c Z b b [main standard 6 11 none]
+G r c none [main standard 6 11 none] [manipulation_arbre_gen p_menu 13 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 19|1r6 1r23 2r6 2r31
+X 6 a-inteio.ads
+18K13*Integer_Text_IO[15|46] 19|2w10 2r35
+X 14 a-textio.ads
+57K13*Text_IO 727e16 19|1w10 1r27
+508U14*Put_Line 19|12s4
+X 19 main.adb
+6U11*Main 6b11 15l5 15t9
+9p4 arbre_racine{20|10P9[21|44]} 14m27 14r27
+X 20 p_arbre_bin.ads
+10P9*T_Arbre_Bin 19|9r38[21|44]
+X 21 p_arbre_genealog.ads
+4K9*P_Arbre_Genealog 19|4w6 4r28 21|275e21
+44K12*arbre_genealogique[20|8] 19|9r19
+X 23 p_menu.ads
+4K9*P_Menu 19|3w6 3r18 23|247e11
+13U14*manipulation_arbre_gen 19|14s4
+

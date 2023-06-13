@@ -1,0 +1,119 @@
+V "GNAT Lib v2020"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_RECURSION
+RV NO_STANDARD_ALLOCATORS_AFTER_ELABORATION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U test_p_arbre_binaire%b  test_p_arbre_binaire.adb  086ae9f5 NE OO SU IL
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W p_arbre_bin%s		p_arbre_bin.adb		p_arbre_bin.ali
+Z system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20200228061810 76789da1 ada%s
+D a-except.ads		20200228061810 a7106115 ada.exceptions%s
+D a-inteio.ads		20200228061810 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20200228061810 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20200228061810 119b8fb3 ada.streams%s
+D a-tags.ads		20200228061810 edddc8f0 ada.tags%s
+D a-textio.ads		20200228061810 aef4d56d ada.text_io%s
+D a-tiinio.ads		20200228061810 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20200228061810 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20200228061810 5ab55268 interfaces%s
+D i-cstrea.ads		20200228061810 e53d8b8e interfaces.c_streams%s
+D p_arbre_bin.ads	20210129141224 eb9ddd7f p_arbre_bin%s
+D p_arbre_bin.adb	20210129164812 8b5849f2 p_arbre_bin%b
+D system.ads		20200228061810 32a08138 system%s
+D s-crtl.ads		20200228061810 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200228061810 54135002 system.exception_table%s
+D s-ficobl.ads		20200228061810 078245e4 system.file_control_block%s
+D s-imgint.ads		20200228061810 02dbe0c2 system.img_int%s
+D s-parame.ads		20200228061810 4752c4cb system.parameters%s
+D s-secsta.ads		20200327060540 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20200228061810 a7318a92 system.soft_links%s
+D s-stache.ads		20200228061810 a37c21ec system.stack_checking%s
+D s-stalib.ads		20200228061810 6b7a13f2 system.standard_library%s
+D s-stoele.ads		20200228061810 2dc34a04 system.storage_elements%s
+D s-traent.ads		20200228061810 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200319060540 5ecf7212 system.unsigned_types%s
+D s-wchcon.ads		20200228061810 1b7d22d2 system.wch_con%s
+D test_p_arbre_binaire.adb  20210129182618 bb486843 test_p_arbre_binaire%b
+G a e
+G c Z b b [test_p_arbre_binaire standard 5 11 none]
+G r i none [test_p_arbre_binaire standard 5 11 none] [p_arbre_bin standard 8 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 28|1r6 1r23 2r6 2r31
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[8|46] 28|2w10 2r35
+X 7 a-textio.ads
+57K13*Text_IO 727e16 28|1w10 1r27
+264U14*New_Line 28|31s4 37s38 40s11 46s33 48s20 48s30 50s38 53s11 59s35 61s20
+. 63s37 66s11 72s37 74s20 76s37 79s11 85s40 87s20 89s37 92s43 94s20 96s37
+. 98s11 104s44 106s20 108s37 109s41 110s44 112s20 114s37 116s11 122s40 124s20
+. 126s37 127s41 128s44 130s20 132s37 136s11 144s8 151s11 157s37 159s20 161s37
+. 163s11 163s20 171s8 179s8 184s32 186s17 186s27 190s4 190s13 198s8 206s37
+. 208s11 208s20
+465U14*Put 28|21s10 36s7 37s7 38s7 46s7 47s7 49s7 50s7 51s7 59s7 60s7 62s7
+. 63s7 64s7 72s7 73s7 75s7 76s7 77s7 85s7 86s7 88s7 89s7 90s7 92s7 93s7 95s7
+. 96s7 104s7 105s7 107s7 108s7 109s7 110s7 111s7 113s7 114s7 122s7 123s7
+. 125s7 126s7 127s7 128s7 129s7 131s7 132s7 157s7 158s7 160s7 161s7 162s7
+. 184s4 185s4 187s4 189s4 205s7 206s7 207s7
+508U14*Put_Line 28|33s4 34s4 39s7 42s4 43s4 52s7 55s4 56s4 65s7 68s4 69s4
+. 78s7 81s4 82s4 91s7 97s7 100s4 101s4 115s7 118s4 119s4 133s7 135s7 138s4
+. 139s4 143s30 146s4 147s4 150s7 153s4 154s4 165s4 166s4 170s36 173s4 174s4
+. 178s36 181s4 182s4 188s4 192s4 193s4 197s30 200s4 201s4 204s7
+X 12 p_arbre_bin.ads
+5+9 T_Element 28|13r45
+7V18 egaux{boolean} 28|13r67
+8k9*P_Arbre_Bin 275e16 28|3w6 13r33
+10P9 T_Arbre_Bin 28|17r34[13] 29r11[13]
+15X4 element_absent 28|143r12[13] 197r12[13]
+17X4 emplacement_invalide 28|170r12[13] 178r12[13]
+29U14 initialiser 28|32s4[13]
+53V13 estVide{boolean} 28|19s14[13] 35s7[13] 45s11[13] 58s11[13] 71s11[13]
+. 84s11[13] 103s11[13] 121s11[13] 149s7[13] 156s11[13] 203s7[13]
+65V13 taille{integer} 28|37s25[13] 50s25[13] 63s25[13] 76s25[13] 89s25[13]
+. 96s25[13] 108s25[13] 114s25[13] 126s25[13] 132s25[13] 161s25[13] 188s27[13]
+. 206s25[13]
+80U14 inserer 28|44s4[13] 57s4[13] 70s4[13] 168s7[13] 176s7[13]
+119V13 getElement{integer} 28|21s28[13]
+147V13 recherche{10P9[28|13]} 28|83s9[13] 102s9[13] 120s9[13] 141s12[13]
+. 148s9[13]
+175U14 modifier 28|155s4[13]
+189U14 supprimer 28|183s4[13] 195s7[13] 202s4[13]
+219V13 getSousArbreGauche{10P9[28|13]} 28|22s19[13]
+245V13 getSousArbreDroit{10P9[28|13]} 28|23s19[13]
+X 28 test_p_arbre_binaire.adb
+5U11*test_p_arbre_binaire 5b11 210l5 210t25
+13K12 Arbre_Binaire[12|8] 14r8
+17U14 afficher 17b14 17>23 22s10 23s10 27t7 48s7 61s7 74s7 87s7 94s7 106s7
+. 112s7 124s7 130s7 159s7 186s4
+17p23 arbre{12|10P9[13]} 19r22 21r39 22r38 23r37
+29p4 a{12|10P9[13]} 32m16 32r16 35r15 37r32 44m12 44r12 45r19 48r16 50r32
+. 57m12 57r12 58r19 61r16 63r32 70m12 70r12 71r19 74r16 76r32 83r19 94r16
+. 96r32 102r19 112r16 114r32 120r19 130r16 132r32 141r22 148r19 155m13 155r13
+. 156r19 159r16 161r32 168m15 168r15 176m15 176r15 183m14 183r14 186r13 188r34
+. 195m17 195r17 202m14 202r14 203r15 206r32
+29p7 b{12|10P9[13]} 83m4 84r19 87r16 89r32 102m4 103r19 106r16 108r32 120m4
+. 121r19 124r16 126r32 141m7 148m4 149r15
+

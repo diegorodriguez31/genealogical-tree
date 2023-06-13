@@ -1,0 +1,1 @@
+test_p_individu.adb:18:15: warning: variable "individu2" is never read and never assigned
